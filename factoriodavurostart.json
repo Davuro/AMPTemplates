@@ -5,7 +5,7 @@
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c \"jq --argjson n {{$MaxUsers}} '.max_players = $n' factorio/server/data/server-settings.json > /tmp/tmp.json && mv /tmp/tmp.json factorio/server/data/server-settings.json\"",
-        "SkipOnFailure": true
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Create Save",
