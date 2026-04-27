@@ -99,7 +99,7 @@
         "FieldName": "$MaxUsers",
         "InputType": "number",
         "MinValue": "0",
-        "ParamFieldName": "max_players",
+        "ParamFieldName": "$.max_players",
         "DefaultValue": "4",
         "Placeholder": "0",
         "Suffix": "players",
@@ -435,7 +435,7 @@
         "Keywords": "non-blocking,saving,experimental,non_blocking_saving",
         "FieldName": "non_blocking_saving",
         "InputType": "checkbox",
-        "ParamFieldName": "non_blocking_saving",
+        "ParamFieldName": "$.non_blocking_saving",
         "DefaultValue": "true",
         "EnumValues": {
             "False": "false",
