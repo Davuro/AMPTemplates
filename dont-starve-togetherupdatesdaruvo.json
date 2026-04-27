@@ -8,6 +8,14 @@
         "SkipOnFailure": true
     },
     {
+        "UpdateStageName": "SteamCMD Init Delay",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"sleep 15\"",
+        "SkipOnFailure": true
+    },
+    {
         "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
