@@ -6,6 +6,23 @@
         "UpdateSourceData": "896660",
         "UpdateSourceArgs": "892970",
         "UpdateSourceVersion": "{{Stream}}",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "SteamCMD Init Delay",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"sleep 15\"",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "896660",
+        "UpdateSourceArgs": "892970",
+        "UpdateSourceVersion": "{{Stream}}",
         "SkipOnFailure": false
     },
     {
