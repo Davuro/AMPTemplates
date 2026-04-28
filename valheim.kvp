@@ -1,4 +1,4 @@
-Meta.DisplayName=Valheim
+Meta.DisplayName=Valheim Davuro
 Meta.Description=Includes optional support for ValheimPlus and BepinEx
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
@@ -24,7 +24,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=6
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
-Meta.AppConfigId=1b7a66b4-6a89-47e3-9d18-5afa37a4634e
+Meta.AppConfigId=f3a9c2e1-7b45-4d12-8e6f-1a3b5c9d0e2f
 Meta.ImportableExtensions=[]
 App.DisplayName=Valheim
 App.RootDir=./Valheim/
