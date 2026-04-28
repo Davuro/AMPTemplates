@@ -17,7 +17,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UpdateSourceConditionSetting": "DownloadSource",
         "UpdateSourceConditionValue": "steam",
-        "SkipOnFailure": true
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "SteamCMD Init Delay",
