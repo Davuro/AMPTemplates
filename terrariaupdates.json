@@ -17,8 +17,27 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UpdateSourceConditionSetting": "DownloadSource",
         "UpdateSourceConditionValue": "steam",
-        "SkipOnFailure": false
+        "SkipOnFailure": true
     },
+    {
+        "UpdateStageName": "SteamCMD Init Delay",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"sleep 15\"",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Server Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "105600",
+        "UpdateSourceArgs": "105600",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UpdateSourceConditionSetting": "DownloadSource",
+        "UpdateSourceConditionValue": "steam",
+        "SkipOnFailure": false
+    },    
     {
         "UpdateStageName": "Server Download",
         "UpdateSourcePlatform": "Linux",
